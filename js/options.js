@@ -1,4 +1,10 @@
 'use strict';
+if(localStorage.userName) {
+  console.log('test');
+  var userName = JSON.parse(localStorage.getItem('userName'));
+  console.log(userName);
+}
+'use strict';
 
 if(localStorage.userName) {
   console.log('test');
@@ -15,9 +21,11 @@ var varSleep = document.getElementById('sleep');
 var varDental = document.getElementById('dental');
 var varSocial = document.getElementById('social');
 
-varFood.addEventListener('click', )
+varFood.addEventListener('click', clickFood);
 
-
+function clickFood() {
+  console.log('Food clicked.');
+}
 
 
 
