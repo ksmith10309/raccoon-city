@@ -9,9 +9,11 @@ var varSleep = document.getElementById('sleep');
 var varDental = document.getElementById('dental');
 var varSocial = document.getElementById('social');
 
-varFood.addEventListener('click', )
+varFood.addEventListener('click', clickFood);
 
-
+function clickFood() {
+  console.log('Food clicked.');
+}
 
 
 
