@@ -1,5 +1,11 @@
 'use strict';
 
+if(localStorage.userName) {
+  console.log('test');
+  var userName = JSON.parse(localStorage.getItem('userName'));
+  console.log(userName);
+}
+
 var varFood = document.getElementById('food');
 var varHealthInsurance = document.getElementById('healthInsurance');
 var varVehicle = document.getElementById('vehicle');
