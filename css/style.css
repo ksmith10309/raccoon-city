@@ -42,11 +42,13 @@ header {
 }
 
 /* CSS FOR INDEX.HTML */
-#indexhtml {
-    background-color:seashell;
+
+#indexbody {
+    background-image: url("../img/indexbackground.JPG");
+    background-size: cover;
 }
 #user-form, #introtext{
-    position:relative;
+    position:relative;  
     top:200px;
     left:25%;
 }
