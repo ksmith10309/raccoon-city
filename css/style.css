@@ -46,3 +46,9 @@ header {
     top:200px;
     left:200px;
 }
+.input {
+    width:75%;
+}
+.button {
+    width:50%;
+}
