@@ -9,6 +9,8 @@ header {
     width: 100%;
     height: 50px;
     padding: 10px;
+    top: 0;
+    left: 0;
 }
 
 .nav {
@@ -21,12 +23,14 @@ header {
     color: green;
 }
 
+/* CSS FOR OPTIONS.HTML */
 .flex-container {
     display: flex;
     min-width: 250px;
     max-width: 1000px;
     flex-wrap: wrap;
     align-items: flex-start;
+    margin: 100px auto 0 auto;
 }
 
 .item {
@@ -36,6 +40,7 @@ header {
     margin: 10px;
 }
 
+/* CSS FOR INDEX.HTML */
 #user-form {
     position:relative;
     top:200px;
