@@ -6,7 +6,16 @@ if(localStorage.userName) {
 }
 'use strict';
 
+
 var points = 0;
+
+if(localStorage.userName) {
+  console.log('test');
+  var userName = JSON.parse(localStorage.getItem('userName'));
+  console.log(userName);
+}
+
+
 var varFood = document.getElementById('food');
 var varHealth = document.getElementById('healthInsurance');
 var varVehicle = document.getElementById('vehicle');
