@@ -30,6 +30,8 @@ var clickSleep = false;
 var clickDental = false;
 var clickSocial = false;
 
+var choices = [];
+// var choicesNone = [];
 
 foodEl.addEventListener('click', functionFood);
 healthEl.addEventListener('click', functionHealth);
@@ -171,8 +173,59 @@ function functionSocial() {
   console.log('clickSocial: ', clickSocial);
 }
 
+
+// var clickFood = false;
+// var clickHealth = false;
+// var clickVehicle = false;
+// var clickClothes = false;
+// var clickHousing = false;
+// var clickSleep = false;
+// var clickDental = false;
+// var clickSocial = false;
+
+
 function functionSubmit() {
   event.preventDefault();
-
-  console.log('choices are submitted');
+  if (clickFood === true) {
+    choices.push('Food');
+  } else {
+    choicesNone.push('Food');
+  }
+  if (clickHealth === true) {
+    choices.push('Health');
+  } else {
+    choicesNone.push('Health');
+  }
+  if (clickVehicle === true) {
+    choices.push('Vehicle');
+  } else {
+    choicesNone.push('Vehicle');
+  }
+  if (clickClothes === true) {
+    choices.push('Clothes');
+  } else {
+    choicesNone.push('Clothes');
+  }
+  if (clickHousing === true) {
+    choices.push('Housing');
+  } else {
+    choicesNone.push('Housing');
+  }
+  if (clickSleep === true) {
+    choices.push('Sleep');
+  } else {
+    choicesNone.push('Sleep');
+  }
+  if (clickDental === true) {
+    choices.push('Dental');
+  } else {
+    choicesNone.push('Dental');
+  }
+  if (clickSocial === true) {
+    choices.push('Social');
+  } else {
+    choicesNone.push('Social');
+  }
+  console.log('choices: ', choices);
+  console.log('choicesNone: ', choicesNone);
 }
