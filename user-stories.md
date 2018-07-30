@@ -1,0 +1,13 @@
+#User Stories
+
+- As a developer, I want to make a website that anthropomorphizes a raccoon to teach users about how expensive it is to live in a city.
+- As a developer, I want a home page so that the user can learn more about this application.
+- As a developer, I want a page with options so that the user can select what they want their raccoon to have.
+- As a developer, I want a page with results so that the user can see the results of what they selected.
+- As a developer, I want an about me page so that the user can learn more about the creators of this application.
+
+---
+
+- As a user, I want to learn more about what it is like to live in a city.
+- As a user, I want to practice making choices so that I can understand the concept of making sacrifices.
+- As a user, I want to use an app that incorporates a raccoon to keep things interesting.
