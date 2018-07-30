@@ -11,5 +11,6 @@ formEl.addEventListener('submit', function(event) {
   console.log(userName);
   // need to stringify and store to local storage
   localStorage.setItem('userName',JSON.stringify(userName));
-  window.location.href = 'options.html';
+  toOptions();
+  function toOptions(){window.location.href = 'options.html';}
 });
