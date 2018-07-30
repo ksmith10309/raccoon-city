@@ -6,8 +6,7 @@ if(localStorage.userName) {
 }
 'use strict';
 
-
-var points = 0;
+var points = 5;
 
 if(localStorage.userName) {
   console.log('test');
@@ -17,7 +16,7 @@ if(localStorage.userName) {
 
 
 var varFood = document.getElementById('food');
-var varHealth = document.getElementById('healthInsurance');
+var varHealth = document.getElementById('health');
 var varVehicle = document.getElementById('vehicle');
 var varClothes = document.getElementById('clothes');
 var varHousing = document.getElementById('housing');
@@ -38,8 +37,8 @@ var clickSocial = false;
 
 varFood.addEventListener('click', functionFood);
 varHealth.addEventListener('click', functionHealth);
-varVehicle.addEventListener('click', functionVehicle); 
-varClothes.addEventListener('click', functionClothes); 
+varVehicle.addEventListener('click', functionVehicle);
+varClothes.addEventListener('click', functionClothes);
 varHousing.addEventListener('click', functionHousing);
 varSleep.addEventListener('click', functionSleep);
 varDental.addEventListener('click', functionDental);
@@ -48,97 +47,127 @@ varSubmit.addEventListener('click', functionSubmit);
 
 
 function functionFood() {
-  event.preventDefault(); 
-  if (clickFood === false) {
+  event.preventDefault();
+  var foodEl = document.getElementById('food');
+  if (clickFood === false && points > 0) {
     clickFood = true;
-  } else {
+    points--;
+    foodEl.style.backgroundColor='red';
+  } else if (clickFood === true) {
     clickFood = false;
+    points++;
+    foodEl.style.backgroundColor='green';
   }
   console.log('clickFood: ', clickFood);
 }
 
 function functionHealth() {
-  event.preventDefault(); 
-  if (clickHealth === false) {
+  event.preventDefault();
+  var healthEl = document.getElementById('health');
+  if (clickHealth === false && points > 0) {
     clickHealth = true;
-  } else {
+    points--;
+    healthEl.style.backgroundColor='red';
+  } else if (clickHealth === true) {
     clickHealth = false;
+    points++;
+    healthEl.style.backgroundColor='green';
   }
   console.log('clickHealth: ', clickHealth);
 }
 
 function functionVehicle() {
-  event.preventDefault(); 
-  if (clickVehicle === false) {
+  event.preventDefault();
+  var vehicleEl = document.getElementById('vehicle');
+  if (clickVehicle === false && points > 0) {
     clickVehicle = true;
-  } else {
+    points--;
+    vehicleEl.style.backgroundColor='red';
+  } else if (clickVehicle === true) {
     clickVehicle = false;
+    points++;
+    vehicleEl.style.backgroundColor='green';
   }
   console.log('clickVehicle: ', clickVehicle);
 }
 
 function functionClothes() {
-  event.preventDefault(); 
-  if (clickClothes === false) {
+  event.preventDefault();
+  var clothesEl = document.getElementById('clothes');
+  if (clickClothes === false && points > 0) {
     clickClothes = true;
-  } else {
+    points--;
+    clothesEl.style.backgroundColor='red';
+  } else if (clickClothes === true) {
     clickClothes = false;
+    points++;
+    clothesEl.style.backgroundColor='green';
   }
   console.log('clickClothes: ', clickClothes);
 }
 
 function functionHousing() {
-  event.preventDefault(); 
-  if (clickHousing === false) {
+  event.preventDefault();
+  var housingEl = document.getElementById('housing');
+  if (clickHousing === false && points > 0) {
     clickHousing = true;
-  } else {
+    points--;
+    housingEl.style.backgroundColor='red';
+  } else if (clickHousing === true) {
     clickHousing = false;
+    points++;
+    housingEl.style.backgroundColor='green';
   }
   console.log('clickHousing: ', clickHousing);
 }
 
 function functionSleep() {
-  event.preventDefault(); 
-  if (clickSleep === false) {
+  event.preventDefault();
+  var sleepEl = document.getElementById('sleep');
+  if (clickSleep === false && points > 0) {
     clickSleep = true;
-  } else {
+    points--;
+    sleepEl.style.backgroundColor='red';
+  } else if (clickSleep === true) {
     clickSleep = false;
+    points++;
+    sleepEl.style.backgroundColor='green';
   }
   console.log('clickSleep: ', clickSleep);
 }
 
 function functionDental() {
-  event.preventDefault(); 
-  if (clickDental === false) {
+  event.preventDefault();
+  var dentalEl = document.getElementById('dental');
+  if (clickDental === false && points > 0) {
     clickDental = true;
-  } else {
+    points--;
+    dentalEl.style.backgroundColor='red';
+  } else if (clickDental === true) {
     clickDental = false;
+    points++;
+    dentalEl.style.backgroundColor='green';
   }
   console.log('clickDental: ', clickDental);
 }
 
 function functionSocial() {
-  event.preventDefault(); 
-  if (clickSocial === false) {
+  event.preventDefault();
+  var socialEl = document.getElementById('social');
+  if (clickSocial === false && points > 0) {
     clickSocial = true;
-  } else {
+    points--;
+    socialEl.style.backgroundColor='red';
+  } else if (clickSocial === true) {
     clickSocial = false;
+    points++;
+    socialEl.style.backgroundColor='green';
   }
   console.log('clickSocial: ', clickSocial);
 }
 
 function functionSubmit() {
-  event.preventDefault(); 
+  event.preventDefault();
 
   console.log('choices are submitted');
 }
-
-
-
-
-
-
-
-
-
-
