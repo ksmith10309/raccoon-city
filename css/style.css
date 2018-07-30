@@ -42,14 +42,28 @@ header {
 }
 
 /* CSS FOR INDEX.HTML */
-#user-form {
+#indexhtml {
+    background-color:seashell;
+}
+#user-form, #introtext{
     position:relative;
     top:200px;
-    left:200px;
+    left:25%;
 }
-.input {
-    width:75%;
-}
-.button {
+.name {
     width:50%;
+    padding:12px 12px;
+    font-size:20px;
+}
+.name:focus {
+    transition:350ms;
+    background-color:lightblue; 
+    border: 3px solid blue;
+}
+.submit {
+    padding:12px 12px;
+}
+.submit:hover, .submit:active {
+    transition:350ms;
+    background-color: lightblue;
 }
