@@ -1,4 +1,4 @@
-#User Stories
+# User Stories
 
 - As a developer, I want to make a website that anthropomorphizes a raccoon to teach users about how expensive it is to live in a city.
 - As a developer, I want a home page so that the user can learn more about this application.
