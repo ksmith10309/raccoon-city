@@ -5,6 +5,7 @@ body {
 
 header {
     position: fixed;
+    z-index: 100;
     color: white;
     background-color: black;
     width: 100%;
@@ -23,3 +24,76 @@ header {
     text-decoration: none;
     color: green;
 }
+
+/* BODY */
+
+body {
+    /* background-image: "img/options/clothes.jpg"; */
+    background-color: #cccccc;
+    background-image: linear-gradient(#7f8c70, #e6e8ed, #7f8c70, #e6e8ed);
+}
+
+/* main * {
+    border: 1px dashed red;
+} */
+
+.andy, .elijah, .joyce, .katherine {
+    display: block;
+    margin-top: 25px;
+}
+
+p {
+    font-family: 'Exo 2';
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+footer {
+    font-family: 'Exo 2';
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.container, footer {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+h1 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Exo 2';
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Exo 2';
+    margin-bottom: 30px;
+}
+
+.headshots {
+    width: 300px;
+    margin-left: 70px;
+    border-radius: 30%;
+}
+
+
+.person-img {
+    width: 40%;
+    display: inline-block;
+}
+
+.person-text {
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
