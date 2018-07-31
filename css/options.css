@@ -154,10 +154,13 @@ p {
 
 button {
     padding: 12px 12px; 
-    float: right;
     font-family: "Exo 2", sans-serif;
     font-size: 16px;
     margin: 10px;
+    width:90%;
+    position:relative;
+    left:5%;
+    border-radius: 10px;
 }
 
 button:hover, button:active {
@@ -166,8 +169,5 @@ button:hover, button:active {
 }
 
 .directions, .points {
-    display:inline-block;
-    background-color: rgba(200, 200, 200, 0.4);
-    box-shadow: 0px 0px 10px white;
-    border-radius: 10px;
+   text-shadow: 1px 1px white;
 }
