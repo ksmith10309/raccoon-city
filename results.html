@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Results Page</title>
+    <title>Raccoon City Results Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/results.css">
@@ -21,16 +21,54 @@
         </nav>  
     </header>  
     <main>
-        <p>Here is the raccoon, living in the city.</p>
-        <img id="clothes" src="img/results/clothes.png" alt="Clothing">
-        <img id="dental" src="img/results/dental.png" alt="Nice Teeth">
-        <img id="food" src="img/results/food.png" alt="Good Food">
-        <img id="health" src="img/results/health.png" alt="Med">
-        <img id="vehicle" src="img/results/vehicle.png" alt="Vehicle">
-        <img id="social" src="img/results/social.png" alt="Social Time">
-        <img id="housing" src="img/results/housing.png" alt="Good House">
-        <img id="sleep" src="img/results/sleep.png" alt="Sleepy">
-        <img id="raccoon" src="img/results/raccoon.png" alt="Default Racoon">
+        <section class="raccoon">
+            <p>Here is your raccoon <span id="name"></span>, living in the city.</p>
+            <img class="results-img" id="clothes" src="img/results/clothes.png" alt="Clothing">
+            <img class="results-img" id="dental" src="img/results/dental.png" alt="Nice Teeth">
+            <img class="results-img" id="food" src="img/results/food.png" alt="Good Food">
+            <img class="results-img" id="health" src="img/results/health.png" alt="Med">
+            <img class="results-img" id="vehicle" src="img/results/vehicle.png" alt="Vehicle">
+            <img class="results-img" id="social" src="img/results/social.png" alt="Social Time">
+            <img class="results-img" id="housing" src="img/results/housing.png" alt="Good House">
+            <img class="results-img" id="sleep" src="img/results/sleep.png" alt="Sleepy">
+            <img class="results-img" id="raccoon" src="img/results/raccoon.png" alt="Default Racoon">
+        </section>
+
+        <section class="sacrifices">
+            <p>Your raccoon <span id="name2"></span> sacrificed: </p>
+            <div class="options" id="clothes2">
+                <span class="image-text">Clothes</span>
+                <img class="options-img" src="img/options/clothes.jpg" alt="Raccoon wearing tuxedo">
+            </div>
+            <div class="options" id="dental2">
+                <span class="image-text">Dental</span>
+                <img class="options-img" src="img/options/teeth.jpeg" alt="Smiling raccoon on deck">
+            </div>
+            <div class="options" id="food2">
+                <span class="image-text">Food</span>
+                <img class="options-img" id="food2" src="img/options/orange.jpg" alt="Oranges on plate">
+            </div>
+            <div class="options" id="health2">
+                <span class="image-text">Health</span>
+                <img class="options-img" src="img/options/health.jpg" alt="Medical clinic">
+            </div>
+            <div class="options" id="vehicle2">
+                <span class="image-text">Vehicle</span>
+                <img class="options-img" src="img/options/vehicle.jpg" alt="Raccoons driving car">
+            </div>
+            <div class="options" id="social2">
+                <span class="image-text">Social</span>
+                <img class="options-img" src="img/options/social.jpg" alt="Raccoons in living room">
+            </div>
+            <div class="options" id="housing2">
+                <span class="image-text">Housing</span>
+                <img class="options-img" src="img/options/housing.jpg" alt="Raccoons in raccoon house">
+            </div>
+            <div class="options" id="sleep2">
+                <span class="image-text">Sleep</span>
+                <img class="options-img" src="img/options/sleep.jpg" alt="Raccoon under blanket">
+            </div>  
+        </section>
 
     </main>
     <footer></footer>
