@@ -164,3 +164,10 @@ button:hover, button:active {
     transition: 350ms;
     background-color: lightblue;
 }
+
+.directions, .points {
+    display:inline-block;
+    background-color: rgba(200, 200, 200, 0.4);
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+}
