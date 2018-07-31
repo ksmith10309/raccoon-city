@@ -71,7 +71,7 @@ header {
 .item {
     width: 250px;
     height: 200px;
-    background-color: green;
+    background-color: rgb(140,140,170);
     margin: 10px;
     text-align: center;
     border-radius:10px;

@@ -51,12 +51,12 @@ function functionFood() {
   if (clickFood === false && points > 0) {
     clickFood = true;
     points--;
-    foodEl.style.backgroundColor='red';
+    foodEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickFood === true) {
     clickFood = false;
     points++;
-    foodEl.style.backgroundColor='green';
+    foodEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickFood: ', clickFood);
@@ -67,12 +67,12 @@ function functionHealth() {
   if (clickHealth === false && points > 0) {
     clickHealth = true;
     points--;
-    healthEl.style.backgroundColor='red';
+    healthEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickHealth === true) {
     clickHealth = false;
     points++;
-    healthEl.style.backgroundColor='green';
+    healthEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickHealth: ', clickHealth);
@@ -83,12 +83,12 @@ function functionVehicle() {
   if (clickVehicle === false && points > 0) {
     clickVehicle = true;
     points--;
-    vehicleEl.style.backgroundColor='red';
+    vehicleEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickVehicle === true) {
     clickVehicle = false;
     points++;
-    vehicleEl.style.backgroundColor='green';
+    vehicleEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickVehicle: ', clickVehicle);
@@ -99,12 +99,12 @@ function functionClothes() {
   if (clickClothes === false && points > 0) {
     clickClothes = true;
     points--;
-    clothesEl.style.backgroundColor='red';
+    clothesEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickClothes === true) {
     clickClothes = false;
     points++;
-    clothesEl.style.backgroundColor='green';
+    clothesEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickClothes: ', clickClothes);
@@ -115,12 +115,12 @@ function functionHousing() {
   if (clickHousing === false && points > 0) {
     clickHousing = true;
     points--;
-    housingEl.style.backgroundColor='red';
+    housingEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickHousing === true) {
     clickHousing = false;
     points++;
-    housingEl.style.backgroundColor='green';
+    housingEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickHousing: ', clickHousing);
@@ -131,12 +131,12 @@ function functionSleep() {
   if (clickSleep === false && points > 0) {
     clickSleep = true;
     points--;
-    sleepEl.style.backgroundColor='red';
+    sleepEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickSleep === true) {
     clickSleep = false;
     points++;
-    sleepEl.style.backgroundColor='green';
+    sleepEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickSleep: ', clickSleep);
@@ -147,12 +147,12 @@ function functionDental() {
   if (clickDental === false && points > 0) {
     clickDental = true;
     points--;
-    dentalEl.style.backgroundColor='red';
+    dentalEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickDental === true) {
     clickDental = false;
     points++;
-    dentalEl.style.backgroundColor='green';
+    dentalEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickDental: ', clickDental);
@@ -163,12 +163,12 @@ function functionSocial() {
   if (clickSocial === false && points > 0) {
     clickSocial = true;
     points--;
-    socialEl.style.backgroundColor='red';
+    socialEl.style.backgroundColor='rgb(255,120,140)';
     pointsEl.textContent = points;
   } else if (clickSocial === true) {
     clickSocial = false;
     points++;
-    socialEl.style.backgroundColor='green';
+    socialEl.style.backgroundColor='rgb(140,140,170)';
     pointsEl.textContent = points;
   }
   console.log('clickSocial: ', clickSocial);
