@@ -15,9 +15,10 @@ var clickDental = JSON.parse(localStorage.getItem('Dental'));
 var clickSocial = JSON.parse(localStorage.getItem('Social'));
 
 if(clickFood === true) {
-  
+  console.log('true test');
+  document.getElementById('food').style.visibility = 'visible';
 } else if(clickFood === false) {
-  console.log('false test');
+  document.getElementById('food').style.visibility = 'hidden';
 }
 
 if(clickHealth === true) {
