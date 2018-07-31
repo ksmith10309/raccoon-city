@@ -15,7 +15,7 @@ var clickDental = JSON.parse(localStorage.getItem('Dental'));
 var clickSocial = JSON.parse(localStorage.getItem('Social'));
 
 if(clickFood === true) {
-  console.log('true test');
+  
 } else if(clickFood === false) {
   console.log('false test');
 }
@@ -53,11 +53,11 @@ if(clickSleep === true) {
 if(clickDental === true) {
   console.log('true test');
 } else if(clickDental === false) {
-  console.log('true test');
+  console.log('false test');
 }
 
 if(clickSocial === true) {
   console.log('true test');
 } else if(clickSocial === false) {
-  console.log('true test');
+  console.log('false test');
 }
