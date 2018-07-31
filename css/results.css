@@ -84,3 +84,7 @@ img {
 #vehicle {
     
 }
+
+#clothes, #dental, #food, #health, #vehicle {
+    visibility: hidden;
+}
