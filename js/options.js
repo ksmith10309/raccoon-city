@@ -6,6 +6,9 @@ if(localStorage.userName) {
   console.log(userName);
 }
 
+var nameEl = document.getElementById('name');
+nameEl.textContent = userName;
+
 var points = 5;
 var pointsEl = document.getElementById('points');
 pointsEl.textContent = points;
