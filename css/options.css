@@ -1,0 +1,61 @@
+/* All HTML Pages */
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    float: right;
+}
+
+.navlink {
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+}
+
+/* CSS FOR OPTIONS.HTML */
+.flex-container {
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    display: flex;
+    max-width: 1080px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 100px auto 0 auto;
+}
+
+.item {
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    margin: 10px;
+}
+
+button {
+   padding: 12px 12px; 
+   float: right;
+   font-family: "Exo 2", sans-serif;
+   font-size: 16px;
+}
+
+button:hover, button:active {
+    transition: 350ms;
+    background-color: lightblue;
+}
