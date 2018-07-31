@@ -1,6 +1,11 @@
 /* All HTML Pages */
 body {
     margin: 0;
+    background-color:rgb(0, 0, 0);
+    background-image: url("../img/background.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1000px;
 }
 
 header {
@@ -75,6 +80,7 @@ header {
     margin: 10px;
     text-align: center;
     border-radius:10px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #textborder {
@@ -131,8 +137,6 @@ header {
     background-size:230px 180px;
     background-repeat: no-repeat;
     background-position: center;}
-
-
 
 p {
     width: 100%;
