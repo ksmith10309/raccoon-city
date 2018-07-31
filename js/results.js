@@ -23,42 +23,56 @@ if(clickFood === true) {
 
 if(clickHealth === true) {
   console.log('true test');
+  document.getElementById('health').style.visibility = 'visible';
 } else if(clickHealth === false) {
   console.log('false test');
+  document.getElementById('health').style.visibility = 'hidden';
 }
 
 if(clickVehicle === true) {
   console.log('true test');
+  document.getElementById('vehicle').style.visibility = 'visible';
 } else if(clickVehicle === false) {
   console.log('false test');
+  document.getElementById('vehicle').style.visibility = 'hidden';
 }
 
 if(clickClothes === true) {
   console.log('true test');
+  document.getElementById('clothes').style.visibility = 'visible';
 } else if(clickClothes === false) {
   console.log('false test');
+  document.getElementById('clothes').style.visibility = 'hidden';
 }
 
 if(clickHousing === true) {
   console.log('true test');
+  document.getElementById('housing').style.visibility = 'visible';
 } else if(clickHousing === false) {
   console.log('false test');
+  document.getElementById('housing').style.visibility = 'hidden';
 }
 
 if(clickSleep === true) {
   console.log('true test');
+  document.getElementById('sleep').style.visibility = 'visible';
 } else if(clickSleep === false) {
   console.log('false test');
+  document.getElementById('sleep').style.visibility = 'hidden';
 }
 
 if(clickDental === true) {
   console.log('true test');
+  document.getElementById('dental').style.visibility = 'visible';
 } else if(clickDental === false) {
   console.log('false test');
+  document.getElementById('dental').style.visibility = 'hidden';
 }
 
 if(clickSocial === true) {
   console.log('true test');
+  document.getElementById('social').style.visibility = 'visible';
 } else if(clickSocial === false) {
   console.log('false test');
+  document.getElementById('social').style.visibility = 'hidden';
 }
