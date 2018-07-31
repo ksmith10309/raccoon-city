@@ -25,7 +25,6 @@ header {
     left: 0;
 }
 
-
 .nav {
     top: 2px;
     right: 30px;
@@ -57,7 +56,6 @@ header {
 }
 
 
-
 /* BODY */
 
 body {
@@ -70,10 +68,6 @@ body {
     border: 1px dashed red;
 } */
 
-.andy, .elijah, .joyce, .katherine {
-    display: block;
-    margin-top: 25px;
-}
 
 p {
     font-family: 'Exo 2';
@@ -89,10 +83,11 @@ footer {
     font-weight: bold;
 }
 
+
 .container, footer {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 20px;
 }
+
 
 h1 {
     margin-top: 120px;
@@ -111,23 +106,25 @@ h2 {
 }
 
 .headshots {
-    width: 300px;
-    margin-left: 70px;
+    width: 100%;
     border-radius: 30%;
 }
 
+.person {
+    max-width: 1000px;
+    display: block;
+    margin: 25px auto 0 auto;
+}
 
 .person-img {
-    width: 40%;
     display: inline-block;
+    width: 300px;
+    margin: 5px 30px;
 }
 
 .person-text {
-    width: 55%;
+    min-width: 300px;
     display: inline-block;
     vertical-align: top;
+    margin: 5px 30px;
 }
-
-
-
-
