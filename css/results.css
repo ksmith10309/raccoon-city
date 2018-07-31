@@ -85,6 +85,21 @@ img {
     
 }
 
+#sleep {
+
+}
+
+#social {
+
+}
+
+#housing {
+z-index: 1;
+}
+
+#raccoon {
+z-index: 2;
+}
 #clothes, #dental, #food, #health, #vehicle {
     visibility: hidden;
 }
