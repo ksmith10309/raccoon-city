@@ -8,6 +8,12 @@ body {
     font-size: 30px;
 }
 
+.homepage {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 header {
     position: fixed;
     color: white;
