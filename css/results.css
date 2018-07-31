@@ -1,7 +1,6 @@
 /* All HTML Pages */
 body {
     margin: 0;
-    font-family: 'Exo 2', sans-serif;
 }
 
 header {
@@ -13,6 +12,8 @@ header {
     padding: 10px;
     top: 0;
     left: 0;
+
+    z-index: 20;
 }
 
 .sitename {
@@ -24,6 +25,10 @@ header {
     list-style-type: none;
     text-decoration: none;
     color: #fff;
+}
+
+.homepage:hover {
+    color: rgb(140,140,170);
 }
 
 .nav {
@@ -53,16 +58,43 @@ header {
 }
 
 .navlink:hover {
-    background-color: grey;
+    background-color: rgb(140,140,170);
 }
 
 /* FOR RESULTS page */
 main {
     margin-top: 100px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
-img {
+p {
+    margin: 20px;
+}
+
+.image-text {
+    color: black;
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+
+.results-img {
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.options {
+    display: inline-block;
+    margin: 5px;
+}
+
+.options-img {
+    width: 200px;
+    height: 150px;
 }
 
 #clothes {
@@ -102,4 +134,9 @@ img {
 }
 #clothes, #dental, #food, #health, #vehicle, #sleep, #social, #housing {
     visibility: hidden;
+}
+
+.sacrifices {
+    margin-top: 450px;
+    margin-bottom: 30px;
 }

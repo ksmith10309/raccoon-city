@@ -32,6 +32,10 @@ header {
     color: #fff;
 }
 
+.homepage:hover {
+    color: rgb(140,140,170);
+}
+
 .nav {
     top: 2px;
     right: 30px;
@@ -59,7 +63,7 @@ header {
 }
 
 .navlink:hover {
-    background-color: grey;
+    background-color: rgb(140,140,170);
 }
 
 /* CSS FOR OPTIONS.HTML */
@@ -139,18 +143,31 @@ header {
     background-position: center;}
 
 p {
-    width: 100%;
+    width: 90%;
     margin: 10px;
 }
 
+#choices {
+    color: white;
+    width: 100%;
+}
+
 button {
-   padding: 12px 12px; 
-   float: right;
-   font-family: "Exo 2", sans-serif;
-   font-size: 16px;
+    padding: 12px 12px; 
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    width:90%;
+    position:relative;
+    left:5%;
+    border-radius: 10px;
 }
 
 button:hover, button:active {
     transition: 350ms;
     background-color: lightblue;
+}
+
+.directions, .points {
+   text-shadow: 1px 1px white;
 }
