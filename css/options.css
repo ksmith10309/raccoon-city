@@ -41,13 +41,17 @@ header {
     background-color: green;
     margin: 10px;
     text-align: center;
+    border-radius:10px;
 }
+
 #food {
     background-image: url("../img/options/orange.jpg");
     background-size:230px 180px;
     background-repeat: no-repeat;
     background-position: center;
-
+}
+#food:hover, #health:hover, #vehicle:hover, #clothes:hover, #housing:hover, #sleep:hover, #dental:hover, #social:hover {
+    opacity: .75;
 }
 #health{
     background-image: url("../img/options/health.jpg");
