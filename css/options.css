@@ -42,6 +42,50 @@ header {
     margin: 10px;
     text-align: center;
 }
+#food {
+    background-image: url("../img/options/orange.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#health{
+    background-image: url("../img/options/health.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#vehicle{
+    background-image: url("../img/options/vehicle.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#clothes{
+    background-image: url("../img/options/clothes.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#housing{
+    background-image: url("../img/options/housing.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#sleep{
+    background-image: url("../img/options/sleep.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#dental{
+    background-image: url("../img/options/teeth.jpeg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+#social{
+    background-image: url("../img/options/social.jpg");
+    background-size:230px 180px;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
 
 p {
     width: 100%;
