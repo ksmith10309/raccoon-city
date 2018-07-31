@@ -3,7 +3,9 @@
 <head>
     <title>Index Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/options.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,21 +19,19 @@
     </header>
     <main>
         <div class="flex-container">
-            <div id="food" class="item">Food</div>
-            <div id="health" class="item">Health Insurance</div>
-            <div id="vehicle" class="item">Vehicle</div>
-            <div id="clothes" class="item">Clothes</div>
-            <div id="housing" class="item">Housing</div>
-            <div id="sleep" class="item">Sleep</div>
-            <div id="dental" class="item">Dental Insurance</div>
-            <div id="social" class="item">Social</div>
-        </div>
-        <div>
+            <p class="directions">You have 5 points. Please choose the necessities that you would like <span id="name"></span> to have:</p>
             <p>Points Remaining: <span id="points"></span></p>
+            <div id="food" class="item"><span>Food</span></div>
+            <div id="health" class="item"><span>Health Insurance</span></div>
+            <div id="vehicle" class="item"><span>Vehicle</span></div>
+            <div id="clothes" class="item"><span>Clothes</span></div>
+            <div id="housing" class="item"><span>Housing</span></div>
+            <div id="sleep" class="item"><span>Sleep</span></div>
+            <div id="dental" class="item"><span>Dental Insurance</span></div>
+            <div id="social" class="item"><span>Social</span></div>
+            <p>Once you have made your choices, please click submit<button id="submit" type="click">SUBMIT</button></p>
         </div>
-        <div>
-            <button id="submit" type="click">submit</button>
-        </div>
+
 
     <script src="js/options.js"></script>
     
