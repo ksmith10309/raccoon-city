@@ -32,6 +32,10 @@ header {
     color: #fff;
 }
 
+.homepage:hover {
+    color: rgb(140,140,170);
+}
+
 .nav {
     top: 2px;
     right: 30px;
@@ -59,7 +63,7 @@ header {
 }
 
 .navlink:hover {
-    background-color: grey;
+    background-color: rgb(140,140,170);
 }
 
 /* CSS FOR OPTIONS.HTML */
