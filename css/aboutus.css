@@ -59,7 +59,6 @@ header {
 /* BODY */
 
 body {
-    /* background-image: "img/options/clothes.jpg"; */
     background-color: #cccccc;
     background-image: linear-gradient(#58634c, #e6e8ed, #58634c, #e6e8ed);
 }
@@ -78,30 +77,31 @@ p {
 footer {
     font-family: 'Exo 2';
     font-size: 18px;
-    margin-top: 100px;
-    margin-bottom: 70px;
     font-weight: bold;
 }
 
 
 .container, footer {
-    margin: 20px;
+    margin-left: 130px;
+    margin-top: 130px;
+    margin-bottom: 100px;
 }
 
 
 h1 {
     margin-top: 120px;
     margin-bottom: 50px;
-    text-align: center;
+    margin-left: 120px;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Exo 2';
+    font-family: 'Black Ops One';
 }
 
 h2 {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Exo 2';
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -122,6 +122,7 @@ h2 {
     margin: 5px 30px;
 }
 
+
 .person-text {
     min-width: 300px;
     max-width: 500px;
@@ -129,3 +130,98 @@ h2 {
     vertical-align: top;
     margin: 5px 30px;
 }
+
+
+#andy-img {
+    background-image: url("../img/night-1.jpg");
+    width: 300px;
+    height: 280px;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 30%;
+}
+
+#andy-img:hover {
+    background-image: url("../img/andy.jpg");
+    border: 7px solid black;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#elijah-img {
+    background-image: url("../img/night-2.jpg");
+    width: 300px;
+    height: 280px;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 30%;
+}
+
+#elijah-img:hover {
+    background-image: url("../img/options/clothes.jpg");
+    border: 7px solid black;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#joyce-img {
+    background-image: url("../img/night-3.jpg");
+    width: 300px;
+    height: 280px;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 30%;
+}
+
+#joyce-img:hover {
+    background-image: url("../img/joyce.jpg");
+    border: 7px solid black;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#katherine-img {
+    background-image: url("../img/night-4.jpg");
+    width: 300px;
+    height: 280px;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 30%;
+}
+
+#katherine-img:hover {
+    background-image: url("../img/katherine.jpg");
+    border: 7px solid black;
+    background-size:300px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
