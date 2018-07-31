@@ -13,20 +13,45 @@ header {
     color: white;
     background-color: black;
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding: 10px;
     top: 0;
     left: 0;
 }
 
+.sitename {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+}
+
 .nav {
-    float: right;
+    top: 2px;
+    right: 30px;
+    position: absolute;
+    background-color: white;
+}
+.nav2 {
+    top: 38px;
+    right: 30px;
+    position: absolute;
+    background-color: white;
+    border-top: 4px solid white;
 }
 
 .navlink {
     display: inline-block;
+    padding: 10px;
     text-decoration: none;
-    color: green;
+    color: white;
+    background-color: black;
+    width: 80px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+}
+
+.navlink:hover {
+    background-color: grey;
 }
 
 /* CSS FOR INDEX.HTML */
