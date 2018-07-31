@@ -13,3 +13,4 @@ var clickHousing = JSON.parse(localStorage.getItem('Housing'));
 var clickSleep = JSON.parse(localStorage.getItem('Sleep'));
 var clickDental = JSON.parse(localStorage.getItem('Dental'));
 var clickSocial = JSON.parse(localStorage.getItem('Social'));
+
