@@ -183,5 +183,6 @@ function functionSubmit() {
   localStorage.setItem('Sleep',JSON.stringify(clickSleep));
   localStorage.setItem('Dental',JSON.stringify(clickDental));
   localStorage.setItem('Social',JSON.stringify(clickSocial));
-
+  toResults();
+  function toResults(){window.location.href = 'results.html';}
 }
