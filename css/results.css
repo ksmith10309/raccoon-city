@@ -20,6 +20,12 @@ header {
     font-size: 30px;
 }
 
+.homepage {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav {
     top: 2px;
     right: 30px;
@@ -57,12 +63,6 @@ main {
 
 img {
     position: absolute;
-}
-
-.homepage {
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
 }
 
 #clothes {
