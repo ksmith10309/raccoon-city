@@ -124,6 +124,7 @@ h2 {
 
 .person-text {
     min-width: 300px;
+    max-width: 500px;
     display: inline-block;
     vertical-align: top;
     margin: 5px 30px;
