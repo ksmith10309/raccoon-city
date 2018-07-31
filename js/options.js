@@ -171,8 +171,17 @@ function functionSocial() {
   console.log('clickSocial: ', clickSocial);
 }
 
+
+
 function functionSubmit() {
   event.preventDefault();
+  localStorage.setItem('Food',JSON.stringify(clickFood));
+  localStorage.setItem('Health',JSON.stringify(clickHealth));
+  localStorage.setItem('Vehicle',JSON.stringify(clickVehicle));
+  localStorage.setItem('Clothes',JSON.stringify(clickClothes));
+  localStorage.setItem('Housing',JSON.stringify(clickHousing));
+  localStorage.setItem('Sleep',JSON.stringify(clickSleep));
+  localStorage.setItem('Dental',JSON.stringify(clickDental));
+  localStorage.setItem('Social',JSON.stringify(clickSocial));
 
-  console.log('choices are submitted');
 }
