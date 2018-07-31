@@ -54,3 +54,27 @@ header {
 main {
     margin-top: 100px;
 }
+
+img {
+    position: absolute;
+}
+
+#clothes {
+    z-index: 10;
+}
+
+#dental {
+
+}
+
+#food {
+
+}
+
+#health {
+
+}
+
+#vehicle {
+    
+}
