@@ -59,6 +59,12 @@ img {
     position: absolute;
 }
 
+.homepage {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 #clothes {
     z-index: 10;
 }
