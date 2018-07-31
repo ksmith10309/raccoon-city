@@ -54,11 +54,11 @@ if(clickSleep === true) {
 if(clickDental === true) {
   console.log('true test');
 } else if(clickDental === false) {
-  console.log('true test');
+  console.log('false test');
 }
 
 if(clickSocial === true) {
   console.log('true test');
 } else if(clickSocial === false) {
-  console.log('true test');
+  console.log('false test');
 }
