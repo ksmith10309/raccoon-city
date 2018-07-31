@@ -46,6 +46,7 @@ header {
 #indexbody {
     background-image: url("../img/indexbackground.JPG");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #user-form, #introtext{
     position:relative;  
