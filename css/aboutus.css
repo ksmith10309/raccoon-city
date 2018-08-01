@@ -220,13 +220,23 @@ h2 {
 
 /*FORTUNE COOKIE*/
 
+.click-here{
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 300px;
+    font-family: 'Indie Flower';
+    font-weight: 1000;
+}
+
+
 .fortune {
     width: 35px;
-    margin-top:35px;
-    margin-left: 40px;
+    margin-top:10px;
+    margin-left:300px;
     border: 2px solid #210f01;
     border-style: groove;
     border-radius: 50%;
+    vertical-align: top;
 }
 
 .fortune {
