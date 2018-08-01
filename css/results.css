@@ -106,7 +106,7 @@ p {
 }
 
 #food {
-
+    z-index: 3;
 }
 
 #health {
