@@ -1,5 +1,8 @@
 /* All HTML Pages */
 body {
+    background-image: url(../img/results/trollbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
     margin: 0;
 }
 
@@ -82,7 +85,7 @@ p {
 
 .results-img {
     position: absolute;
-    top: 40%;
+    top: 375px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
