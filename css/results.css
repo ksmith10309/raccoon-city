@@ -1,11 +1,16 @@
 /* All HTML Pages */
 body {
-    background-image: url(../img/results/trollbg.jpg);
+    /* background-image: url(); */
     background-repeat: no-repeat;
     background-size: 100% 600px;
     margin: 0;
 }
-
+.bgbutton {
+    position:relative;
+    top:100px;
+    height:40px;
+    width:50px;
+}
 header {
     position: fixed;
     color: white;

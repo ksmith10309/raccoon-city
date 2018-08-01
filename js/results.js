@@ -97,3 +97,24 @@ if(clickSocial === true) {
   document.getElementById('social').style.visibility = 'hidden';
   document.getElementById('social2').style.display = 'inline-block';
 }
+
+
+var pikeplacebg = document.getElementById('pikeplacebg');
+var spaceneedlebg = document.getElementById('spaceneedlebg');
+var trollbg = document.getElementById('trollbg');
+
+pikeplacebg.addEventListener('click', functionPikeplacebg);
+spaceneedlebg.addEventListener('click', functionSpaceneedlebg);
+trollbg.addEventListener('click',functionTrollbg);
+
+function functionPikeplacebg() {
+  document.body.style.backgroundImage = 'url("../img/results/pikeplacebg.jpg")';
+}
+
+function functionSpaceneedlebg() {
+  document.body.style.backgroundImage = 'url("../img/results/spaceneedlebg.jpg")';
+}
+
+function functionTrollbg() {
+  document.body.style.backgroundImage = 'url("../img/results/trollbg.jpg")';
+}
