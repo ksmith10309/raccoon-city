@@ -89,10 +89,10 @@ footer {
 
 
 h1 {
-    margin-top: 135px;
+    margin-top: 90px;
     margin-bottom: 65px;
-    margin-left: 80px;
-    font-size: 50px;
+    margin-left: 250px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Black Ops One';
 }
@@ -104,6 +104,15 @@ h2 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Exo 2';
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
 
 .headshots {
     width: 100%;
@@ -135,27 +144,41 @@ p {
     font-family: 'Exo 2';
     font-size: 22px;
     margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
 
+}
+
+.line {
+    margin-left: 20px;
 }
 
 .line-p {
     display: inline;
-    width: 600px;
-    margin-left: 40px;
+    margin-left: 50px;
+    vertical-align: 10px;
 }
 
 .dollar {
-    width: 50px;
-    margin-left: 20px;
+    width:54px;
     display: inline;
-    vertical-align: top;
+    vertical-align: center;
     border: 2px solid rgb(128, 125, 125);
     opacity:0.3;
 }
 
+button {
+    width: 75px;
+    height: 42px;
+    z-index: 0;
+    background-color: transparent;
+    border-radius: 20%;
+    /* margin-left: 10px; */
+}
 
+#f1:hover {
+    border:  2px solid red;
+}
 
 
 
