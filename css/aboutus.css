@@ -217,6 +217,11 @@ h2 {
     display: inline-block;
 }
 
+#hidden-link {
+  text-decoration: none;
+  color: black;
+}
+
 
 /*FORTUNE COOKIE*/
 
