@@ -59,7 +59,7 @@ function draw() {
     }
   }
 
-  canvas.onclick = function(evt) {
+  canvas.onmousedown = function(evt) {
     var mouselocation = getMousePos(canvas, evt);
     for (var i = 0; i < oranges; i++) {
       if (mouselocation.x > fallingOranges[i].x && mouselocation.x < fallingOranges[i].x + 50 && mouselocation.y > fallingOranges[i].y && mouselocation.y < fallingOranges[i].y + 50) {
