@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raccoon City Game Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span class="sitename"><a class="homepage" href="../index.html">RACCOON<br>CITY</a></span>
+        <nav class='nav'>
+            <a href='../index.html' class='navlink'>HOME</a>
+            <a href='../options.html' class='navlink'>OPTIONS</a>
+        </nav>
+        <nav class='nav2'>
+            <a href='../results.html' class='navlink'>RESULTS</a>
+            <a href='../aboutus.html' class='navlink'>ABOUT US</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class='title'><span>Welcome to Raccoon City, the Game!!</span></div>
+
+            <div class='instructions'><p>Raccoons are our friends! At least we want them to be.</p></div>
+            <div class='instructions'><p>Let's build our friendship by feeding them cookies!</p></div>
+            <div class='instructions'><p>They'll eat oranges too, but they don't like them as much.</p></div>
+            <div class='instructions'><p>Don't give them any empty plates. That would not be nice.</p></div>
+            <div class='instructions'><p>Collect 100 points to win friendship!</p></div>
+
+            <div><img src="cookie.png" alt="picture of cookie"><span class="points">Cookies are worth 1 point</span></div>
+            <div><img src="orange.png" alt="picture of orange"><span class="points">Oranges are worth 0 points</span></div>
+            <div><img src="plate.png" alt="picture of plate"><span class="points">Plates are worth -1 point</span></div>
+        </section>
+        <section>
+            <div class='pointdisplay'>Points: <span id='pointtotal'></span></div>
+            <canvas id="canvas" width="400" height="500"></canvas>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
