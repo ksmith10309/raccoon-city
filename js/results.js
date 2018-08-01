@@ -107,11 +107,11 @@ spaceneedlebg.addEventListener('click', functionSpaceneedlebg);
 trollbg.addEventListener('click',functionTrollbg);
 
 function functionPikeplacebg() {
-  document.body.style.backgroundImage = 'url(raccoon-city/img/results/pikeplacebg.jpg)';
+  document.body.style.backgroundImage = 'url(img/results/pikeplacebg.jpg)';
 }
 
 function functionSpaceneedlebg() {
-  document.body.style.backgroundImage = 'url(../raccoon-city/img/results/spaceneedlebg.jpg)';
+  document.body.style.backgroundImage = 'url(img/results/spaceneedlebg.jpg)';
 }
 
 function functionTrollbg() {
