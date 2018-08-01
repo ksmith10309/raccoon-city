@@ -98,11 +98,11 @@ p {
 }
 
 #clothes {
-    z-index: 10;
+    z-index: 3;
 }
 
 #dental {
-
+    z-index: 3;
 }
 
 #food {
@@ -118,7 +118,7 @@ p {
 }
 
 #sleep {
-
+    z-index: 3;
 }
 
 #social {
