@@ -98,10 +98,15 @@ p {
 }
 
 #clothes, #dental, #food, #health, #sleep, #social {
-    z-index: 4;
+    z-index: 5;
 }
 
+
 #vehicle {
+    z-index: 3;
+}
+
+#skateboard {
     z-index: 2;
 }
 
@@ -109,8 +114,12 @@ p {
     z-index: 1;
 }
 
+#tent {
+    z-index: 0;
+}
+
 #raccoon {
-    z-index: 3;
+    z-index: 4;
 }
 #clothes, #dental, #food, #health, #vehicle, #sleep, #social, #housing {
     visibility: hidden;
