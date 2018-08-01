@@ -97,40 +97,20 @@ p {
     height: 150px;
 }
 
-#clothes {
-    z-index: 10;
-}
-
-#dental {
-
-}
-
-#food {
-
-}
-
-#health {
-
+#clothes, #dental, #food, #health, #sleep, #social {
+    z-index: 4;
 }
 
 #vehicle {
-    
-}
-
-#sleep {
-
-}
-
-#social {
-
+    z-index: 2;
 }
 
 #housing {
-z-index: 1;
+    z-index: 1;
 }
 
 #raccoon {
-z-index: 2;
+    z-index: 3;
 }
 #clothes, #dental, #food, #health, #vehicle, #sleep, #social, #housing {
     visibility: hidden;
