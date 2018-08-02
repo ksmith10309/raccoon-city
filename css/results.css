@@ -100,8 +100,12 @@ main {
     top: 180px;
 }
 
-p {
-    margin: 20px;
+.top-text {
+    display: inline-block;
+    background-color: rgba(200, 200, 200, 0.4);
+    box-shadow: 0px 0px 10px white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .image-text {
@@ -157,6 +161,6 @@ p {
 }
 
 .sacrifices {
-    margin-top: 450px;
+    margin-top: 500px;
     margin-bottom: 30px;
 }
