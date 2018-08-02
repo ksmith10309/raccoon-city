@@ -1,9 +1,8 @@
 /* All HTML Pages */
 body {
-    /* background-image: url(); */
     background-repeat: no-repeat;
-    background-size: 100% 600px;
-    margin: 0;
+    background-size: 800px 600px;
+    background-position: center 80px;
 }
 
 header {
@@ -87,17 +86,17 @@ main {
 
 #trollbg {
     left: 20px;
-    top: 170px;
+    top: 180px;
 }
 
 #pikeplacebg {
     left: 20px;
-    top: 205px;
+    top: 215px;
 }
 
 #spaceneedlebg {
     left: 20px;
-    top: 240px;
+    top: 250px;
 }
 
 .top-text {
@@ -117,7 +116,7 @@ main {
 
 .results-img {
     position: absolute;
-    top: 375px;
+    top: 450px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -161,10 +160,11 @@ main {
 }
 
 .sacrifices {
-    margin-top: 500px;
+    margin-top: 560px;
     margin-bottom: 30px;
+    text-shadow: 1px 1px white;
 }
 
 .gone {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
