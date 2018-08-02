@@ -4,6 +4,7 @@ pointEl.textContent = points;
 
 var canvas = document.getElementById('canvas');
 var ctx;
+var raccoon;
 var background;
 var falling;
 
@@ -24,6 +25,10 @@ function getMousePos(canvas, evt) {
 
 function drawBackground() {
   ctx.drawImage(background, 0, 0);
+}
+
+function drawRaccoon() {
+  ctx.drawImage(raccoon.image, 0, 100, 400, 400);
 }
 
 function draw() {
@@ -64,26 +69,31 @@ function draw() {
     for (var i = 0; i < oranges; i++) {
       if (mouselocation.x > fallingOranges[i].x && mouselocation.x < fallingOranges[i].x + 50 && mouselocation.y > fallingOranges[i].y && mouselocation.y < fallingOranges[i].y + 50) {
         fallingOranges[i].x = -50;
+        points++;
+        pointEl.textContent = points;
       }
     }
     for (var j = 0; j < cookies; j++) {
       if (mouselocation.x > fallingCookies[j].x && mouselocation.x < fallingCookies[j].x + 50 && mouselocation.y > fallingCookies[j].y && mouselocation.y < fallingCookies[j].y + 50) {
         fallingCookies[j].x = -50;
-        points++;
+        points+=2;
         pointEl.textContent = points;
         if (points >= 30) {
           clearInterval(falling);
+
+          drawRaccoon();
+
           ctx.font = '30px Black Ops One';
           ctx.fillStyle = 'black';
           ctx.textAlign = 'center';
-          ctx.fillText('You Win!!', canvas.width/2, canvas.height/2);
+          ctx.fillText('You Win Friendship!!', canvas.width/2, 70);
         }
       }
     }
     for (var k = 0; k < plates; k++) {
       if (mouselocation.x > fallingPlates[k].x && mouselocation.x < fallingPlates[k].x + 50 && mouselocation.y > fallingPlates[k].y && mouselocation.y < fallingPlates[k].y + 50) {
         fallingPlates[k].x = -50;
-        points--;
+        points-=3;
         pointEl.textContent = points;
       }
     }
@@ -96,6 +106,11 @@ function setup() {
 
     background = new Image();
     background.src = '../img/background.jpg';
+
+    raccoon = new Object();
+    raccoon.image = new Image();
+    raccoon.image.src = 'raccoonfriend.png';
+
     falling = setInterval(draw, 20);
 
     for (var i = 0; i < oranges; i++) {
