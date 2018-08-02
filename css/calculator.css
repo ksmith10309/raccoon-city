@@ -96,6 +96,7 @@ h3 {
     font-weight: bold;
     font-family: 'Exo 2';
     margin-top: 15px;
+    color: white;
 }
 
 
@@ -174,11 +175,11 @@ button {
     width: 250px;
     height: 130px;
     right: 12%;
-    bottom: 80px;
+    bottom: 50px;
     padding: 10px 20px;
     border: 7px solid black;
     border-radius: 15%;
-    background-color: white;
+    background-color: black;
 }
 
 footer {
