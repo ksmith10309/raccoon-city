@@ -112,10 +112,9 @@ section {
 }
 
 footer {
-    display: block;
-    padding-top: 100px;
-    height: 600px;
     font-size: 14px;
     text-align: center;
     color: white;
+    margin-top: 400px;
+    margin-bottom: 30px;
 }
