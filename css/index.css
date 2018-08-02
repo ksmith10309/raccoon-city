@@ -70,7 +70,7 @@ header {
 
 .title {
     display: block;
-    margin: 120px auto 20px auto;
+    margin: 160px auto 20px auto;
     font-family: 'Black Ops One', cursive;
     font-size: 60px;
     text-align: center;
@@ -82,7 +82,7 @@ section {
     margin: 0 auto;
     max-width: 800px;
 
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: rgba(200, 200, 200, 0.5);
     box-shadow: 0px 0px 10px white;
     border-radius: 10px;
 }
@@ -110,3 +110,4 @@ section {
     transition:350ms;
     background-color: lightblue;
 }
+
