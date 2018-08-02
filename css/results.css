@@ -172,3 +172,26 @@ main {
 .gone {
     margin-bottom: 30px;
 }
+
+.actualcost {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 12px; 
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+    margin: 10px auto 50px auto;
+    width: 90%;
+    position:relative;
+    border-radius: 10px;
+    background-color: grey;
+    color: white
+}
+
+button:hover, button:active {
+    transition: 350ms;
+    color: grey;
+    background-color: lightblue;
+}
