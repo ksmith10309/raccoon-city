@@ -1,8 +1,9 @@
 /* All HTML Pages */
 body {
     margin: 0;
-    background: linear-gradient(to bottom right, rgb(190,240,250), rgb(150,150,180), rgb(255,130,150), rgb(240,250,180));
-    min-height: 1000px;
+    background: linear-gradient(to bottom right, rgb(190,240,250), rgb(150,150,180), rgb(255,130,150), rgb(240,250,180)) no-repeat center center fixed;
+    
+    
 }
 
 header {
