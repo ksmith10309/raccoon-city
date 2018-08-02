@@ -1,8 +1,8 @@
 /* All HTML Pages */
 body {
     background-repeat: no-repeat;
-    background-size: 800px 600px;
-    background-position: center 80px;
+    background-size: 1600px 1300px;
+    background-position: center -630px;
 }
 
 header {
@@ -116,7 +116,7 @@ main {
 
 .results-img {
     position: absolute;
-    top: 450px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
