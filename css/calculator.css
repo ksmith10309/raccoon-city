@@ -173,19 +173,20 @@ button {
 .totalBox {
     position: fixed;
     width: 250px;
-    height: 130px;
+    height: 120px;
     right: 12%;
-    bottom: 50px;
+    bottom: 15px;
     padding: 10px 20px;
     border: 7px solid black;
     border-radius: 15%;
     background-color: black;
+    margin-left: auto;
 }
 
 footer {
     font-size: 14px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 250px;
 }
 
