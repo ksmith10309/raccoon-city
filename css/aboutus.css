@@ -79,13 +79,6 @@ p {
     margin-left: 10px;
 }
 
-footer {
-    font-family: 'Exo 2';
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
 .container, footer {
     margin-left: 130px;
     margin-top: 130px;
@@ -264,8 +257,8 @@ h2 {
     100% { transform: rotate(-5deg); }
 }
 
-
-
-
-
-
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
