@@ -186,12 +186,11 @@ button {
     width: 90%;
     position:relative;
     border-radius: 10px;
-    background-color: grey;
-    color: white
+    background-color: rgba(200, 200, 200, 0.4);
+    color: black;
 }
 
 button:hover, button:active {
     transition: 350ms;
-    color: grey;
     background-color: lightblue;
 }
