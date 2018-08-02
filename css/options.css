@@ -31,7 +31,7 @@ header {
 }
 
 .homepage:hover {
-    color: rgb(140,140,170);
+    color: grey;
 }
 
 .nav {
@@ -61,7 +61,7 @@ header {
 }
 
 .navlink:hover {
-    background-color: rgb(140,140,170);
+    background-color: grey;
 }
 
 /* CSS FOR OPTIONS.HTML */
