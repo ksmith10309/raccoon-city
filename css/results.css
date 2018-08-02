@@ -1,5 +1,6 @@
 /* All HTML Pages */
 body {
+    background-color: lightgrey;
     background-repeat: no-repeat;
     background-size: 1600px 1300px;
     background-position: center -630px;
@@ -105,7 +106,7 @@ main {
 
 .top-text {
     display: inline-block;
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 0px 10px white;
     padding: 10px;
     border-radius: 10px;
@@ -186,7 +187,6 @@ button {
     width: 90%;
     position:relative;
     border-radius: 10px;
-    background-color: rgba(200, 200, 200, 0.4);
     color: black;
 }
 
