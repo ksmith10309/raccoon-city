@@ -65,7 +65,7 @@ header {
 
 body {
     background-color: #cccccc;
-    background-image: linear-gradient(#58634c, #e6e8ed, #58634c, #e6e8ed);
+    background-image: linear-gradient(#f4e842, #e6e8ed, #f4e842, #e6e8ed);
 }
 
 /* main * {
@@ -91,7 +91,7 @@ footer {
 h1 {
     margin-top: 90px;
     margin-bottom: 65px;
-    margin-left: 250px;
+    margin-left: 120px;
     font-size: 35px;
     font-weight: bold;
     font-family: 'Black Ops One';
@@ -109,8 +109,7 @@ h3 {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Exo 2';
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 35px;
 }
 
 
@@ -163,7 +162,6 @@ p {
     width:54px;
     display: inline;
     vertical-align: center;
-    border: 2px solid rgb(128, 125, 125);
     opacity:0.3;
 }
 
@@ -179,6 +177,25 @@ button {
 #f1:hover {
     border:  2px solid red;
 }
+
+.newClassJ1 {
+    border: 3px solid black;
+}
+
+.totalBox {
+    position: fixed;
+    width: 300px;
+    height: 220px;
+    right: 60px;
+    top: 250px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 7px solid black;
+    border-radius: 15%;
+}
+
+
+
 
 
 
