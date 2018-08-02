@@ -177,7 +177,7 @@ button {
     right: 12%;
     bottom: 50px;
     padding: 10px 20px;
-    border: 7px solid black;
+    border: 10px solid rgba(104, 103, 103, 0.767);
     border-radius: 15%;
     background-color: black;
     margin-left: auto;
