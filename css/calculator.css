@@ -139,9 +139,10 @@ p {
 }
 
 .line-p {
-    display: inline;
-    margin-left: 50px;
+    display: inline-block;
+    margin-left: 10px;
     vertical-align: 10px;
+    min-width: 350px;
 }
 
 .dollar {
@@ -173,7 +174,7 @@ button {
     width: 250px;
     height: 130px;
     right: 12%;
-    bottom: 100px;
+    bottom: 80px;
     padding: 10px 20px;
     border: 7px solid black;
     border-radius: 15%;
@@ -191,8 +192,6 @@ footer {
     text-align: center;
 }
 
-/* .container, footer {
-    margin-left: 130px;
-    margin-top: 130px;
-    margin-bottom: 100px;
-} */
+.container {
+    margin: 10px;
+}
