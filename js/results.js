@@ -124,3 +124,11 @@ function functionTrollbg() {
 function functionClearbg() {
   document.body.style.backgroundImage = '';
 }
+
+var varSubmit = document.getElementById('submit');
+varSubmit.addEventListener('click', functionSubmit);
+
+function functionSubmit() {
+  event.preventDefault();
+  window.location.href = 'calculator.html';
+}
