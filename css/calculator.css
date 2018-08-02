@@ -72,15 +72,6 @@ body {
     border: 1px dashed red;
 } */
 
-
-
-footer {
-    font-family: 'Exo 2';
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
 .container, footer {
     margin-left: 130px;
     margin-top: 130px;
@@ -194,8 +185,8 @@ button {
     border-radius: 15%;
 }
 
-
-
-
-
-
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
