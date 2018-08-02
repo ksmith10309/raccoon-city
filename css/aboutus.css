@@ -15,7 +15,7 @@ body {
 }
 
 .homepage:hover {
-    color: #58634c;
+    color: grey;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
 }
 
 .navlink:hover {
-    background-color: #58634c;
+    background-color: grey;
 }
 
 
