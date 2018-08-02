@@ -80,16 +80,15 @@ p {
 }
 
 .container, footer {
-    margin-left: 130px;
-    margin-top: 130px;
-    margin-bottom: 100px;
+    margin: 130px auto 100px auto;
 }
 
+.title {
+    text-align: center;
+}
 
 h1 {
-    margin-top: 135px;
-    margin-bottom: 65px;
-    margin-left: 180px;
+    margin: 135px auto 40px auto;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Black Ops One';
@@ -106,6 +105,7 @@ h2 {
 .headshots {
     width: 100%;
     border-radius: 30%;
+    margin: 0 40px;
 }
 
 .person {
@@ -139,6 +139,7 @@ h2 {
     background-position: center;
     display: inline-block;
     border-radius: 30%;
+    border: 7px solid black;
 }
 
 #andy-img:hover {
@@ -159,6 +160,7 @@ h2 {
     background-position: center;
     display: inline-block;
     border-radius: 30%;
+    border: 7px solid black;
 }
 
 #elijah-img:hover {
@@ -179,6 +181,7 @@ h2 {
     background-position: center;
     display: inline-block;
     border-radius: 30%;
+    border: 7px solid black;
 }
 
 #joyce-img:hover {
@@ -199,6 +202,7 @@ h2 {
     background-position: center;
     display: inline-block;
     border-radius: 30%;
+    border: 7px solid black;
 }
 
 #katherine-img:hover {
