@@ -101,10 +101,13 @@ if(clickSocial === true) {
 var pikeplacebg = document.getElementById('pikeplacebg');
 var spaceneedlebg = document.getElementById('spaceneedlebg');
 var trollbg = document.getElementById('trollbg');
+var clearbg = document.getElementById('clearbg');
 
 pikeplacebg.addEventListener('click', functionPikeplacebg);
 spaceneedlebg.addEventListener('click', functionSpaceneedlebg);
-trollbg.addEventListener('click',functionTrollbg);
+trollbg.addEventListener('click', functionTrollbg);
+clearbg.addEventListener('click', functionClearbg);
+
 
 function functionPikeplacebg() {
   document.body.style.backgroundImage = 'url(img/results/pikeplacebg.jpg)';
@@ -116,4 +119,8 @@ function functionSpaceneedlebg() {
 
 function functionTrollbg() {
   document.body.style.backgroundImage = 'url(img/results/trollbg.jpg)';
+}
+
+function functionClearbg() {
+  document.body.style.backgroundImage = '';
 }

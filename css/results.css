@@ -99,6 +99,11 @@ main {
     top: 250px;
 }
 
+#clearbg {
+    left: 20px;
+    top: 285px;
+}
+
 .top-text {
     display: inline-block;
     background-color: rgba(200, 200, 200, 0.4);
