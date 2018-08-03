@@ -18,5 +18,7 @@
 
 - As a developer, I want to make the app send a picture of the raccoon that the user creates to the user's e-mail address.
 - As a developer, I want to use CSS to animate the raccoon for the user.
+- As a developer, I want to add a game to the site as an Easter egg for the user to find.
+- As a developer, I want to add an expense calculator to the site so the user can find out how much it costs to live in Seattle.
 - As a developer, I want a website that will be viewable on phones, tablets, and computer browsers.
 - As a user, I want to be able to choose background images for my raccoon.
